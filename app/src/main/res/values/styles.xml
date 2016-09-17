@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/red</item> <!-- to set the background color / primary color for the app's brand -->
+        <item name="colorPrimaryDark">@color/dark_red</item> <!-- color for the status bar, which shows up at the top of the screen -->
+        <item name="colorAccent">@color/gray</item> <!-- contrast with the colorPrimary attribute, used to tint some widgets -->
+
+        <item name="android:colorBackground">@color/soothing_blue</item>
+        <item name="android:buttonStyle">@style/BeatBoxButton</item>
+    </style>
+
+    <style name="BeatBoxButton" parent="android:style/Widget.Holo.Button">
+        <item name="android:background">@drawable/button_beat_box</item>
+    </style>
+
+</resources>

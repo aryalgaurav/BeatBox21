@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This file creates an oval shape drawable that is filled in with a dark blue color. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="oval">
+
+    <solid
+        android:color="@color/dark_blue"/>
+</shape>
